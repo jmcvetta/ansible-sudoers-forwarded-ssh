@@ -1,2 +1,8 @@
 ---
-# tasks file for sudoers-forwarded-ssh
+
+- name: Ensure /etc/sudoers is configured for Git checkout with forwarded SSH agent
+  lineinfile:
+    dest: /etc/sudoers
+    line: Defaults    env_keep += "SSH_AUTH_SOCK"
+    state: present
+    validate: visudo -cf %s

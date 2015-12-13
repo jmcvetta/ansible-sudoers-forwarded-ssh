@@ -1,0 +1,6 @@
+---
+
+- name: Test playbook for sudoers-forwarded-ssh
+  hosts: localhost
+  roles:
+    - sudoers-forwarded-ssh
