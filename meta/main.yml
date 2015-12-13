@@ -1,20 +1,10 @@
 ---
 galaxy_info:
-  author: your name
-  description: 
-  company: your company (optional)
-  # If the issue tracker for your role is not on github, uncomment the
-  # next line and provide a value
-  # issue_tracker_url: http://example.com/issue/tracker
-  # Some suggested licenses:
-  # - BSD (default)
-  # - MIT
-  # - GPLv2
-  # - GPLv3
-  # - Apache
-  # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
-  min_ansible_version: 1.2
+  author: Jason McVetta <jason.mcvetta@gmail.com>
+  description: Ansible role to ensure /etc/sudoers is configured for Git checkout with forwarded SSH agent
+  #company: your company (optional)
+  license: GPLv3
+  min_ansible_version: 1.9
   #
   # Below are all platforms currently available. Just uncomment
   # the ones that apply to your role. If you don't see your 
@@ -117,23 +107,6 @@ galaxy_info:
   # Below are all categories currently available. Just as with
   # the platforms above, uncomment those that apply to your role.
   #
-  #categories:
-  #- cloud
-  #- cloud:ec2
-  #- cloud:gce
-  #- cloud:rax
-  #- clustering
-  #- database
-  #- database:nosql
-  #- database:sql
-  #- development
-  #- monitoring
-  #- networking
-  #- packaging
-  #- system
-  #- web
+  categories:
+  - networking
 dependencies: []
-  # List your role dependencies here, one per line.
-  # Be sure to remove the '[]' above if you add dependencies
-  # to this list.
-  
