@@ -54,15 +54,18 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - jason.mcvetta.sudoers-forwarded-ssh
+         - jmcvetta.sudoers-forwarded-ssh
 
 License
 -------
 
 GPLv3
 
+
 Author Information
 ------------------
 
-Jason McVetta <jason.mcvetta@gmail.com>
+[Jason McVetta](mailto:jason.mcvetta@gmail.com)
 
+Paid support and consulting services available from [Silicon
+Heavy](http://siliconheavy.com)
