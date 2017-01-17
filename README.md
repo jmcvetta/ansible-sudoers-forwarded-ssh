@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```bash
-ansible-galaxy install jason.mcvetta.sudoers-forwarded-ssh
+ansible-galaxy install jmcvetta.sudoers-forwarded-ssh
 ```
 
 
